@@ -1,0 +1,83 @@
+# ============================================================================
+# WEB SCRAPING PROJECT - REQUIREMENTS.TXT
+# ============================================================================
+# This file contains all packages needed for the web scraping framework
+# Install with: pip install -r requirements.txt
+# ============================================================================
+
+# CORE WEB SCRAPING DEPENDENCIES
+# ============================================================================
+requests>=2.31.0                # HTTP library for web requests
+beautifulsoup4>=4.12.2          # HTML/XML parsing library  
+playwright>=1.40.0              # Modern browser automation
+pandas>=2.0.3                   # Data manipulation and analysis
+lxml>=4.9.3                     # Fast XML and HTML parser
+
+# NETWORK & HTTP UTILITIES
+# ============================================================================
+urllib3>=2.0.7                  # Advanced HTTP client library
+certifi>=2023.11.17             # Mozilla's CA Bundle for SSL verification
+charset-normalizer>=3.3.2       # Character encoding detection
+idna>=3.6                       # Internationalized Domain Names
+
+# HTML PARSING & PROCESSING
+# ============================================================================
+html5lib>=1.1                   # Pure-python HTML parser
+soupsieve>=2.5                  # CSS selector library for BeautifulSoup
+
+# BROWSER AUTOMATION ALTERNATIVES
+# ============================================================================
+selenium>=4.15.0                # Alternative browser automation
+webdriver-manager>=4.0.1        # Automatic webdriver management
+
+# USER AGENT & STEALTH
+# ============================================================================
+fake-useragent>=1.4.0           # Generate random user agents
+undetected-chromedriver>=3.5.4  # Stealth Chrome automation (optional)
+
+# DATA PROCESSING & ANALYSIS
+# ============================================================================
+numpy>=1.24.3                   # Numerical computing (pandas dependency)
+pytz>=2023.3.post1              # Timezone handling (pandas dependency)
+
+# ASYNC & MODERN HTTP
+# ============================================================================
+httpx>=0.25.2                   # Modern async HTTP client
+h11>=0.14.0                     # HTTP/1.1 protocol implementation
+h2>=4.1.0                       # HTTP/2 protocol implementation
+
+# TEXT PROCESSING & REGEX
+# ============================================================================
+regex>=2023.10.3                # Enhanced regex support
+
+# OPTIONAL: GUI SUPPORT
+# ============================================================================
+# tkinter - Usually included with Python, but listed for completeness
+# Note: tkinter comes pre-installed with most Python distributions
+
+# OPTIONAL: IMAGE PROCESSING (for screenshot handling)
+# ============================================================================
+Pillow>=10.1.0                  # Image processing library
+
+# DEVELOPMENT & TESTING
+# ============================================================================
+setuptools>=68.2.2              # Package development tools
+wheel>=0.42.0                   # Built-package format for Python
+
+# ============================================================================
+# INSTALLATION NOTES FOR WINDOWS:
+# ============================================================================
+# EASY SETUP: Just run setup.bat (double-click or run from cmd/PowerShell)
+# 
+# MANUAL SETUP:
+# 1. Create virtual environment: python -m venv .venv
+# 2. Activate virtual environment: .venv\Scripts\activate
+# 3. Install packages: pip install -r requirements.txt
+# 4. Install Playwright browsers: playwright install
+# 5. Verify: python -c "import requests, bs4, playwright, pandas; print('Success!')"
+#
+# REQUIREMENTS:
+# - Python 3.8+ (download from python.org)
+# - Internet connection for package downloads
+# - Windows 10/11 (or Windows Server 2016+)
+# ============================================================================
